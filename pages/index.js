@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 import { useWeb3 } from '@3rdweb/hooks';
+import Dashboard from './Dashboard';
 
 export default function Home() {
   const { address, connectWallet } = useWeb3()  // get wallet address and function to connect to thirdweb via metamask
   return (
     <Wrapper>
       {address ? (
-        <h2>{address}</h2>
+        <Dashboard address={address}/>
       ) : (
         <WalletConnect>
         <Button onClick={() => connectWallet('injected')}>  {/* connect metamask account to localhost:3000*/}
