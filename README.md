@@ -1,11 +1,10 @@
-This is the prototype of 'Coinbase'-like webapp which is working with web3 ([MetaMask](https://metamask.io/), [thirdweb](https://thirdweb.com/)) and Ethereum test network 'Rinkeby'.
-[Sanity](https://sanity.io) used to store 'coins' data.
+### This is the prototype of 'Coinbase'-like webapp which is working with web3 ([MetaMask](https://metamask.io/), [thirdweb](https://thirdweb.com/)) and Ethereum test network 'Rinkeby'. [Sanity](https://sanity.io) used to store 'coins' data.
 
 ## Technologies/Libraries/Platforms used:
 - React JS / Next JS
--[Sanity](https://sanity.io)
--[thirdweb](https://thirdweb.com/)
--[MetaMask](https://metamask.io/)
+- [Sanity](https://sanity.io)
+- [thirdweb](https://thirdweb.com/)
+- [MetaMask](https://metamask.io/)
 
 ## ```npm``` libraries/packages used:
 - styled-components
